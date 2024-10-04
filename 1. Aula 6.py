@@ -15,7 +15,7 @@ t = n01 + n02
 
 #tem uma forma nova de PRINTAR tbm. COLOCO COLCHETES, para 'puxar' a proxima variavel. E depois das aspas, coloco ".format(variavel)
 
-#FORMA ANTIGA print('A soma entre', n01 , 'e', n02 , 'vale {}'.format(t))
+#FORMA ANTIGA print('A soma entre', n01 , 'e', n02 , 'vale', t, '.')
 
 print('A soma entre {} e {} vale {}'.format(n01 , n02 , t))
 

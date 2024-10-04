@@ -24,6 +24,6 @@ print(f'Depois disso os que farão a atividade serão o {" e o ".join(atividade)
 apresentacao = random.sample(alunos, k=4) #nesse eu consigo limitar a quantidade de selecionados, independete do tamanho da lista
 print(f'A ordem a ser apresentado será: {" , ".join(apresentacao)}')
 
-'''Poderia ser tambem assim:'''
+#Poderia ser tambem assim:
 random.shuffle(alunos)
 print(f'A ordem de apresentação será:  \n {alunos}')

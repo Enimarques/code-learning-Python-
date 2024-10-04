@@ -4,13 +4,14 @@ n = float(input('Digite um numero que deseja ver arrendodado '))
 
 print(f'O número {n} na sua forma inteira é {math.trunc(n)}')
 
+print(f'Esse mesmo numero é {math.floor(n)} arredondado?')
 
 #exercicio 17
 oposto = float(input('Qual é o valor do cateto oposto? '))
 adjascente = float(input('Qual o valor do cateto adjascente? '))
 hip = math.hypot(oposto , adjascente) #é a formula da hipotenusa
 hip2 = math.sqrt((oposto**2+adjascente**2)) #é a hipotenusa crua
-print(f'{hip:.2f} que é igual a {hip2}')
+print(f'A sua hipotenusa é {hip:.2f} que é igual a {hip2}')
 
 from math import radians,sin,cos,tan
 #exercicio 18
@@ -20,3 +21,4 @@ sen = sin(radiano)
 cos = cos(radiano)
 tan = tan(radiano)
 print('O valor do seno é {:.2f}, do cosseno é {:.2f} e da tangente é {:.2f}'.format(sen, cos, tan))
+print(f'O valor do radiano é {radiano:.2f}')

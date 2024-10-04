@@ -26,8 +26,8 @@ n2 = random.randint(1,100) #da um numero inteiro, no intervalo de 1 a 100 que co
 print(n2)
 
 import emoji #biblioteca de emojis
-emoji_bloquado = emoji.emojize("🌎")
-print(f"Isso é tudo pessoal {emoji_bloquado}")
+emoji_bloqueado = emoji.emojize("🌎")
+print(f"Isso é tudo pessoal {emoji_bloqueado}")
 
 
 

@@ -1,5 +1,5 @@
 n = input('Insira um numero entre 0 e 9999: ')
-n = n.rjust(4 , '0') #4 seria a quantidade de caracteres que quero minimo, e '0' seria o que quero colocar nos vazios.
+n = n.rjust(4 , '0') #4 seria a quantidade de caracteres que quero, e '0' seria o que quero colocar nos vazios a esquerda.
 
 print(f'O seu número é {n.strip()}') #pra tirar os espaços a toa, caso ao inves de 0, colocasse ' '
 print(f'Unidade: {n[3]}')

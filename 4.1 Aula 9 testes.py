@@ -1,5 +1,5 @@
 frase = 'Curso em video Python'
-#print(frase[1::2])
+print(frase[1::2])
 
 print('''vida, seus sonhos e projetos, 
 desejo toda felicidade

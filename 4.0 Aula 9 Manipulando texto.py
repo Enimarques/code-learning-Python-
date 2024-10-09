@@ -21,7 +21,7 @@ len(frase) #seria lengh comprimento. 21 caracteres.
 
 frase.count('o') #vai contar quantas vezes aparece o 'o'.
 
-frase.find('deo') #me mostra onde começa isso
+print(frase.find('deo')) #me mostra onde começa isso
 '''Se ele nao encontrar algo, dar -1'''
 
 'curso' in frase #retorna true or false
@@ -48,3 +48,8 @@ frase.split() #ele divide a frase nos espaços. As numerações ficam separadas,
 
 #JUNÇÃO
 '-'.join(frase) #junta as palavras com o traço no meio.
+
+#Se quiser printar um texto todo
+print("""Coloca tudo dentro de 3 aspas
+      e ai ele printa tudo no final 
+      junto, com as quebras de linha.""")

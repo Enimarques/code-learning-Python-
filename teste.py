@@ -7,7 +7,7 @@ p4=input('Qual nome do aluno 4?')
 alunos=[p1,p2,p3,p4]
 
 escolhido=choices(alunos,k=2)
-print(f'Os alunos escolhidos são {' e '.join(escolhido)}')'''
+print(f'Os alunos escolhidos são {' e '.join(escolhido)}')
 
 
 import random
@@ -19,4 +19,4 @@ if pc_n == n:
 else:
   print('Poxa, não foi dessa vez.')
 
-print(f'O número escolhido pelo pc foi: {pc_n}')
+print(f'O número escolhido pelo pc foi: {pc_n}')'''

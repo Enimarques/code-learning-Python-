@@ -16,6 +16,4 @@ while cont <= n:
     else:
         print("\nÉ isso.")
 
-NAO CONSEGUI FAZER AINDA
-
-testando o push no notebook agora
+'''NAO CONSEGUI FAZER AINDA'''

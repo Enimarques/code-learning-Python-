@@ -5,7 +5,7 @@ print('\033[7:31mMuito bem, agora escolha umas das opções abaixo, e indique o 
 o = 0
 while o != 5:
     o = int(input('[1] Somar\n'
-                  '[2] Multiplicar\n'
+                  '[2] Multiplicar\n'  
                   '[3] Maior\n'
                   '[4] Novos números\n'
                   '[5] Sair do programa.\n'

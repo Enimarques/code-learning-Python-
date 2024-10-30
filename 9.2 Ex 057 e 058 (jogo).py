@@ -37,7 +37,7 @@ while r != "S" and r != 'N': #quero que repita a pergunta se a resposta for erra
                 else:
                     print(f'Acertou, Parabéns. Você precisou apenas de {c} tentativas.')
 
-        elif r == 'N':
+        else:
             print("Okay, que pena, então até a próxima!")
 
 print(f"Até mais {nome}.")

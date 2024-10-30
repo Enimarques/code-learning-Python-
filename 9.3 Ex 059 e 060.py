@@ -24,17 +24,27 @@ while o != 5:
     elif o == 4:
         n1 = int(input('Digite o novamente primeiro valor que você deseja tratar: '))
         n2 = int(input('Digite agora o segundo valor que você deseja tratar: '))
+    else:
+        print('Okay, não temos essa opção, por favor escolha uma das 5 opções abaixo.')
 print('Muito obrigado, espero que tenha encontrado o que queria. ')
 from time import sleep
-sleep(0)
+sleep(1)
 
 print('\n'
       '\033[4:44O fatorial de um número!\033[m')
 n=int(input(f'Qual o número você quer ver o fatorial?'))
-i = 1
+i = 1 #quantidade de vezes
 fatorial = 1
 while i<=n:
     fatorial = fatorial * i
     i = i + 1
 
 print(f'O fatorial de {n} é {fatorial}!')
+
+'''print('\n'
+      'Fatorial agora com função "for" ')
+n = int(input('Qual numero inteiro voce quer ver o fatorial?'))  
+fatorial = 1
+for c in range (n,0,-1):
+  fatorial = fatorial * c
+print(f'O fatorial de {n} é igual a {fatorial}') '''

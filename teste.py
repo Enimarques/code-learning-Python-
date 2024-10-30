@@ -20,3 +20,24 @@ else:
   print('Poxa, não foi dessa vez.')
 
 print(f'O número escolhido pelo pc foi: {pc_n}')'''
+
+'''print('Desafio do jogo melhorado e resumido')
+import random
+n = 1 #contador
+pc = random.randint(0,10)
+eu = int(input('Okay, vamos brincar um pouco, pensei em um numero de 0 a 10, tente adivinhar qual é: '))
+if pc == eu:
+  print(f'Parábens miseravão, acertou de primera, após {n} tentativa.')
+else:
+  while pc != eu:
+    eu = int(input('Errou vacilão, tenta de novo trouxa: '))
+    n = n+1
+  print(f'Ai sim, até que enfim em? Você precisou de {n} tentativas para acertar o número.')'''
+    
+print('Fatorial agora com função "for"')
+n = int(input('Qual numero inteiro voce quer ver o fatorial?'))  
+fatorial = 1
+for c in range (n,0,-1):
+  fatorial = fatorial * c
+  print(fatorial)
+print(f'O fatorial de {n} é igual a {fatorial}') 
